@@ -52,14 +52,6 @@ If you find our work useful in your research, please consider citing:
     year = "2021",
     pages = "825-829"}
 ```
-```
-@article{yang2021dprtf2,
-    Author = "Bing Yang and Runwei Ding and Yutong Ban and Xiaofei Li and Hong Liu",
-    Title = "Enhancing direct-path relative transfer function using deep neural network for robust sound source localization",
-    Journal = "{CAAI} Transactions on Intelligence Technology",
-    Pages = {1-9},
-    Year = {2021}}
-```
 
 ## Licence
 MIT
