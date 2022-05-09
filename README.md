@@ -54,7 +54,7 @@ A python implementation of “**<a href="https://ieeexplore.ieee.org/document/95
 ```
 @article{yang2021dprtf2,
     Author = "Bing Yang and Runwei Ding and Yutong Ban and Xiaofei Li and Hong Liu",
-    Title = "Enhancing Direct-Path Relative Transfer Function Using Deep Neural Network for Robust Sound Source Localization",
+    Title = "Enhancing direct-path relative transfer function using deep neural network for robust sound source localization",
     Journal = "{CAAI} Transactions on Intelligence Technology",
     Pages = {1-9},
     Year = {2021}}
