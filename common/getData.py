@@ -1,12 +1,12 @@
 """
 	Function:   Generate audio data for sound source localization
-    Descrition: Specific data paths in path(); Traverse all set_flags and generate_modes to generate desired data
+    	Descrition: Specific data paths in path(); Traverse all set_flags and generate_modes to generate desired data
 
-    Reference:  B. Yang, H. Liu, and X. Li. "Learning deep direct-path relative transfer function for binaural sound source localization," 
-    IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP), vol. 29,  pp. 3491 - 3503, 2021.
+    	Reference:  B. Yang, H. Liu, and X. Li. "Learning deep direct-path relative transfer function for binaural sound source localization," 
+    	IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP), vol. 29,  pp. 3491 - 3503, 2021.
 	Author:     Bing Yang
-    History:    2022-04-25 - Initial version
-    Copyright Bing Yang
+    	History:    2022-04-25 - Initial version
+    	Copyright Bing Yang
 """
 
 import os
@@ -308,20 +308,6 @@ def path(mic_type):
     dirs = dirconfig()
     dirs['hrir'] = dirs['hrir'] + mic_type + '/'
     dirs['rir'] = dirs['rir'] + mic_type +'/'
-    # data_dir = dirs['data']
-    # dirs = {}
-    # dirs['hrir'] = data_dir + 'HRIR/' + mic_type + '/'
-    # dirs['rir'] = data_dir + 'RIR/'+ mic_type +'/'
-    # dirs['sousig'] = data_dir + 'SouSig/TIMIT/'
-    # dirs['noisig'] = data_dir + 'NoiSig/DiffNoise/'
-    # gerdata_dir = data_dir + 'GerData2/'
-    # dirs['ger'] = gerdata_dir
-    # dirs['sensig'] = gerdata_dir + 'SenSig/'
-    # # dirs['sensig'] = gerdata_dir + 'SenSigEnhanced/'
-    # dirs['sensigclean'] = gerdata_dir + 'SenSigClean/'
-    # dirs['sensigclean_n'] = gerdata_dir + 'SenSigClean_n/'
-    # dirs['rtf'] = gerdata_dir + 'RTF/'
-    # dirs['setting'] = gerdata_dir + 'Setting/'
 
     return dirs
 
