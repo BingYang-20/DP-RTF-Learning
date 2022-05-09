@@ -34,6 +34,7 @@ A python implementation of “**<a href="https://ieeexplore.ieee.org/document/95
   - exp/00000001/model_52.pth: trained with random data (generated on-the-fly)
 
 ## Citation
+If you find our work useful in your research, please consider citing:
 ```
 @article{yang2021dprtf,
     Author = "Bing Yang and Hong Liu and Xiaofei Li",
