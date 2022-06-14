@@ -67,7 +67,7 @@ def DoSTFT(signal, win_len, win_shift_ratio, nfft, fre_used_ratio, win='hann', v
             stft[:, :, :, ch_idx] = stft_temp[:, 0:nf, 0:nt]
 
     else:
-        assert False, 'Version of DoSTFT is not specificed ~'
+        assert False, 'Version of DoSTFT is not specified ~'
 
     return stft
 
@@ -107,7 +107,7 @@ def DoISTFT(stft, win_len, win_shift_ratio, nfft, ver='np'):
             sig_time[:, :, ch_idx] = sig_time_temp[:, 0:nsample]
 
     else:
-        assert False, 'Version of DoISTFT is not specificed ~'
+        assert False, 'Version of DoISTFT is not specified ~'
 
     return sig_time
 
